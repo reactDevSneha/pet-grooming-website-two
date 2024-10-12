@@ -1,0 +1,74 @@
+@media (max-width: 991px) {
+  /* header */
+  html {
+    font-size: 55%;
+  }
+  .navigation-wrap {
+    background-color: var(--primary-color);
+  }
+  #home {
+    min-height: 100vh;
+  }
+  /* hero */
+}
+@media (max-width: 767px) {
+  /* gallerry  */
+  #gallery .row,#paws-testimonials .row {
+    row-gap: 3rem;
+  }
+ 
+  /* .paws-newsletter form input {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #fff;
+    width: 100%;
+  }
+
+  .paws-newsletter form button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .paws-newsletter h4 {
+    font-size: 1.8rem;
+  } */
+
+}
+@media (max-width: 576px) {
+    .paws-newsletter form {
+        max-width: fit-content;
+    }
+    .paws-newsletter form button {
+        padding: 0.8rem 1rem;
+      }
+}
+@media (max-width: 430px) {
+    .navigation-wrap {
+        background-color: var(--primary-color);
+        text-align: center;
+      }
+      h1 {
+        font-size: 5rem;
+      }
+    
+        /* tesimonials  */
+  #paws-testimonials .testimonial-item {
+    padding: 1rem;
+  
+  }
+  #paws-testimonials .container-xxl {
+	--bs-gutter-x: unset;
+	padding-right:unset;
+	padding-left: unset;
+}
+.booking-form {
+	padding: 10px;
+
+}
+}
+@media (max-width: 295px) {
+    .paws-newsletter form {
+        display: none;
+    }
+}
